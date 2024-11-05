@@ -1,0 +1,14 @@
+# Rust의 target 폴더들 무시
+**/target/
+
+# Cargo.lock 파일들 무시
+**/Cargo.lock
+
+# 백업 파일들 무시
+**/*.rs.bk
+
+# Windows 시스템 파일 무시
+**/Thumbs.db
+
+# macOS 시스템 파일 무시
+**/.DS_Store
