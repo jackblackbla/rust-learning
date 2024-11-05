@@ -1,81 +1,51 @@
-# 하이브리드 금융 데이터 플랫폼
+# Rust Learning Journey
 
-## 🚀 프로젝트 개요
-Rust와 Python의 장점을 결합한 고성능 금융 데이터 분석 플랫폼입니다. Rust로 고성능 코어 엔진을 구현하고, Python으로 AI/분석 기능을 구현하여 확장성과 성능을 모두 확보했습니다.
+## 📚 Overview
+이 저장소는 Rust 프로그래밍 언어를 학습하면서 작성한 코드와 학습 노트를 기록하는 공간입니다.
 
-## 🏗 아키텍처 구성
+## 📁 Repository Structure
+```
+rust-learning/
+├── projects/                      # 실제 코드 프로젝트들
+│   ├── calculator/               # 계산기 프로그램
+│   ├── guessing_game/           # 추리 게임
+│   ├── text_processing/         # 텍스트 처리 프로그램
+│   ├── functions/              # 함수 학습 예제
+│   ├── hello_rust/            # 첫 Rust 프로그램
+│   └── variables/             # 변수 학습 예제
+│
+├── learning-notes/
+│   ├── daily/                    # 데일리 노트
+│   │   ├── 2024-11-04.md       # 일일 학습 기록
+│   │   └── 2024-11-05.md
+│   │
+│   ├── concepts/                 # 개념 정리
+│   │   ├── cargo-commands.md    # Cargo 기본 명령어
+│   │   ├── ownership.md        # 소유권 개념
+│   │   └── stdin-chaining.md   # 표준 입력 처리와 메서드 체이닝
+│   │
+│   └── README.md                # 학습 노트 설명
+```
 
-### Core Services (Rust)
-- **실시간 데이터 처리 엔진**
-  - Rust/Tokio 기반 비동기 처리
-  - Apache Arrow를 통한 고성능 데이터 처리
-  - RabbitMQ 연동
-- **API Gateway**
-  - Axum 프레임워크
-  - Tower 미들웨어
-  - Hyper 서버
-- **검색 & 스크리닝 엔진**
-  - Tantivy 검색 엔진
-  - Polars를 활용한 고성능 데이터 처리
-  - rayon 병렬 처리
+## 🎯 주요 프로젝트
+- **계산기 프로그램**: 기본적인 사칙연산과 에러 처리 구현
+- **추리 게임**: 사용자 입력과 랜덤 숫자 처리 학습
+- **텍스트 처리 프로그램**: 문자열 처리와 파일 I/O 학습
 
-### AI & Analysis (Python)
-- **코파일럿 엔진**
-  - FastAPI
-  - LangChain
-  - Anthropic/OpenAI API 통합
-- **데이터 분석 파이프라인**
-  - NumPy/pandas
-  - TA-Lib
-  - scikit-learn
+## 📝 학습 기록
+- **데일리 노트**: `/learning-notes/daily/`에서 일일 학습 내용 확인 가능
+- **개념 정리**: `/learning-notes/concepts/`에서 주요 Rust 개념들 정리
 
-### Frontend
-- **웹 클라이언트**
-  - Next.js 14
-  - TypeScript
-  - TailwindCSS
-- **데이터 시각화**
-  - D3.js
-  - Recharts
-  - Nivo
+## 🔍 학습 주제
+- Rust 개발 환경 설정
+- 기본 문법과 데이터 타입
+- 소유권과 빌림
+- 구조체와 열거형
+- 에러 처리
+- 패키지 관리와 Cargo 사용법
 
-### Infrastructure
-- **데이터베이스**
-  - TimescaleDB (시계열 데이터)
-  - MongoDB (문서 데이터)
-  - Redis (캐싱)
-- **메시징**
-  - Kafka
-  - Redis Streams
-- **모니터링**
-  - Prometheus
-  - Grafana
-
-## 💡 주요 기술적 도전과 해결책
-1. **실시간 데이터 처리**
-   - 문제: 대량의 시장 데이터 실시간 처리 필요
-   - 해결: Rust 기반 비동기 처리 엔진 구현
-   - 결과: 50ms 이내 처리 달성
-
-2. **AI 통합**
-   - 문제: LLM과 실시간 처리 결합
-   - 해결: Python-Rust 하이브리드 아키텍처
-   - 결과: 유연한 AI 통합과 고성능 동시 달성
-
-## 📊 성과
-- 실시간 데이터 처리: 초당 10,000+ 트랜잭션
-- API 응답 시간: 평균 20ms
-- 메모리 사용: 40% 절감
-- 동시 접속: 1,000+ 사용자 안정적 처리
-
-## 💻 현재 진행 상황
-1. Rust 코어 서비스 구현 중
-2. Python AI 서비스 설계
-3. 데이터 파이프라인 구축
-4. 프론트엔드 MVP 개발
-
-## 🛠 개발 환경
-- VS Code
-- Docker/Kubernetes
-- AWS 클라우드
-- Git/GitHub
+## 🤖 AI 활용
+학습 과정에서 AI를 활용하여:
+- 코드 리뷰 및 개선점 파악
+- 베스트 프랙티스 학습
+- 개발 환경 설정 검증
