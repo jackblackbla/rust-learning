@@ -1,0 +1,66 @@
+[package]
+name = "baekjoon"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[[bin]]
+name = "10818"
+path = "src/bin/10818.rs"
+
+[[bin]]
+name = "2577"
+path = "src/bin/2577.rs"
+
+[[bin]]
+name = "8958"
+path = "src/bin/8958.rs"
+
+[[bin]]
+name = "2920"
+path = "src/bin/2920.rs"
+
+[[bin]]
+name = "1546"
+path = "src/bin/1546.rs"
+
+[[bin]]
+name = "10989"
+path = "src/bin/10989.rs"
+
+[[bin]]
+name = "1920"
+path = "src/bin/1920.rs"
+
+[[bin]]
+name = "10816"
+path = "src/bin/10816.rs"
+
+[[bin]]
+name = "9012"
+path = "src/bin/9012.rs"
+
+[[bin]]
+name = "1181"
+path = "src/bin/1181.rs"
+
+[[bin]]
+name = "1003"
+path = "src/bin/1003.rs"
+
+[[bin]]
+name = "11729"
+path = "src/bin/11729.rs"
+
+[[bin]]
+name = "1260"
+path = "src/bin/1260.rs"
+
+[[bin]]
+name = "2606"
+path = "src/bin/2606.rs"
+
+[[bin]]
+name = "11279"
+path = "src/bin/11279.rs"

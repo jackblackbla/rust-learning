@@ -1,13 +1,5 @@
 use std::fs;
 
-fn find_string_in_text(text: &str, search_word: &str) {
-    for (line_number, line) in text.lines().enumerate() {
-        if line.contains(search_word) {
-            println!("라인 {}: {}", line_number + 1, line);
-        }
-    }
-}
-
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     
     let contents = fs::read_to_string("input.txt")?;
